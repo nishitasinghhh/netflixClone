@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("img/netflixteaser.png");
+/*     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+ */   
+    
+    font-family: Arial;
+}
+.container{
+    background-image: url("img/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+/*     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+ */    background-size: cover;
+ 
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: hsla(0,0%,0%,0.6);
+}
+.navbar{
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+    display: flex;
+align-items: center;
+}
+.left{
+    width: 70%;
+}
+.right{
+    display: flex;
+    
+
+}
+.img-top{
+    width: 160px;
+    height: 80px;
+    margin-top: 12px;
+    margin-left: 200px;
+}
+.english { 
+    border: 2px solid white;
+      background-color: rgb(28, 27, 27);
+    color: white;
+    font-size: 2rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop-down{
+    font-size: 1rem;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    border: none;
+    margin-left: 3px;
+}
+.sign{
+    font-size: 1rem;
+    background-color: rgb(226, 12, 12);
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-left: 40px;
+}    
+.sign:hover,.sign:focus{
+background-color: rgb(170, 12, 12);
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 2px 2px 5px #000;
+}
+.line-one
+{
+    font-size:3rem;
+    font-weight: 900;
+}
+.second-line{
+    font-size: 1.5rem;
+    padding: 23px;
+    font-family: 400;
+}
+.third-line{
+    font-size: 1rem;
+}
+.input{
+   display :flex;
+   justify-content: center;
+   margin-top: 23px;
+}
+.email-add{
+    
+   /*  background-color: transparent;
+    color: white; */
+     background-color: transparent;
+     color: whitesmoke;
+    border: 1px solid grey;
+/* border: 2px solid white; */
+/* ext-align: left; */
+
+width: 370px;
+height: 60px;
+border-radius: 5px;
+}
+ ::placeholder{
+    color: whitesmoke;
+    /* text-align: left; */
+    margin-left: 10px;
+
+}
+.start-button{
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    background-color:rgb(226, 12, 12) ;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+/* .start-button:focus{
+    background-color: rgb(170, 12, 12);
+} */
